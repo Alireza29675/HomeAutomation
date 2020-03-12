@@ -1,0 +1,51 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#201f1d"
+    android:padding="@dimen/widget_margin">
+
+    <TextView
+        android:id="@+id/one_tv"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_gravity="center"
+        android:gravity="center_horizontal|top"
+        android:tag="one"
+        android:text="1"
+        android:textColor="@android:color/white"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/two_tv"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_gravity="center"
+        android:gravity="center_horizontal|top"
+        android:tag="two"
+        android:text="2"
+        android:textColor="@android:color/white"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/three_tv"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_gravity="center"
+        android:gravity="center_horizontal|top"
+        android:tag="three"
+        android:text="3"
+        android:textColor="@android:color/white"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/four_tv"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_gravity="center"
+        android:gravity="center_horizontal|top"
+        android:tag="four"
+        android:text="4"
+        android:textColor="@android:color/white"
+        android:textSize="24sp" />
+
+</LinearLayout>

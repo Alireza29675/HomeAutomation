@@ -1,0 +1,2 @@
+rootProject.name='OnOff'
+include ':app'

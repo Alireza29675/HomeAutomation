@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android"
+    android:configure="com.mhksoft.onoff.OnOffWidgetConfigureActivity"
+    android:initialKeyguardLayout="@layout/on_off_widget"
+    android:initialLayout="@layout/on_off_widget"
+    android:minWidth="250dp"
+    android:minHeight="64dp"
+    android:previewImage="@drawable/widget"
+    android:updatePeriodMillis="86400000"
+    android:widgetCategory="home_screen|keyguard" />
